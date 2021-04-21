@@ -8,4 +8,5 @@ end
 def posts
   Post.all.select do |po|
     po.author == self
+  end
 end
