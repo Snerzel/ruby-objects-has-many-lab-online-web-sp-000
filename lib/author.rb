@@ -10,4 +10,9 @@ def posts
     po.author == self
   end
 end
+
+def add_post(post)
+  post.auther = self
+end
+
 end
