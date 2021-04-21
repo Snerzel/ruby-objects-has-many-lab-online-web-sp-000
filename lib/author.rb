@@ -10,3 +10,4 @@ def posts
     po.author == self
   end
 end
+end
