@@ -12,7 +12,7 @@ def posts
 end
 
 def add_post(post)
-  post.auther = self
+  post.author = self
 end
 
 def add_post_by_title(title)
