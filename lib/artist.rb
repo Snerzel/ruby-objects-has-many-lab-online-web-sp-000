@@ -1,4 +1,4 @@
-class artist
+class Artist
   attr_accessor :songs, :name
 
   def initialize(name)
